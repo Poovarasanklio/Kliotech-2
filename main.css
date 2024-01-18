@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.whole{
+    height: 80px;
+    width:100%;
+    background-color: aquamarine;
+
+}
+h3{
+    color: rgb(235, 27, 124);
+    font-size: 35px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+.list{
+    float: right;
+    margin-right: 20px;
+}
+.sublist{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
