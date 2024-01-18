@@ -3,24 +3,43 @@
     padding:0px;
 }
 .whole{
-    height: 80px;
+    height: auto;
     width:100%;
     background-color: aquamarine;
-
 }
-h3{
+
+
+nav{ 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top:.5%;
+   padding-left: 3%;
+}
+ h3{
     color: rgb(235, 27, 124);
     font-size: 35px;
-    padding: 0 100px;
     font-weight: bold;
-
+    
 }
-.list{
-    float: right;
+.sublist {
+   display: inline-block;
+   padding: 10px 20px;
+   font-weight: bold;
+  
+} 
+button{
+    padding: 1% 2%  ;
+    margin: 10px 20px 15px 10px;
+    border-radius: 20px;font-weight: bold;
+    border: none;
     margin-right: 20px;
+    transition: .6s;
 }
-.sublist{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+li,button,h3:hover{
+    cursor: pointer;
+    
+}
+button:hover{
+    transform: scale(1.2);
 }
