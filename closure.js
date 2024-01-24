@@ -1,10 +1,10 @@
-function zee () {
+function outerfnc () {
     let y =1;
-    function Hello (){
+    function innerfnc (){
     let z=y;
     console.log(z);
     }
-    return Hello();
+    return innerfnc();
 }
-let v=zee();
-v();
+let variable =outerfnc();
+variable();
